@@ -21,8 +21,6 @@ class LinkStatsRepository extends BaseRepository
     const NULLABLE_FIELDS = [
         'advertising_id'
     ];
-
-    public function __construct() { }
     
     public function addStats($data)
     {

@@ -4,12 +4,8 @@ namespace App\Repositories;
 
 use Illuminate\Support\Facades\DB;
  
-class BaseRepository
+abstract class BaseRepository
 {
-    // Паттерн использования данного класса состоит в том, что
-    // он не может быть инициализирован напрямую, только потомком
-    protected function __construct() { }
-
     /**
      * getRDataByID функция возвращает данные из источника по ID
      * ID в данном случае является первичным ключем

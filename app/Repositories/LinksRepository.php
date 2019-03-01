@@ -33,8 +33,6 @@ class LinksRepository extends BaseRepository
         'updated_at'
     ];
 
-    public function __construct() { }
-
     /**
      * getLinkDataByURI возвращает даныне по URI
      *
